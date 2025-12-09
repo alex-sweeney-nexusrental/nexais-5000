@@ -14,11 +14,7 @@ function App() {
   const [prompt, setPrompt] = useState(
     `Summarise the description column in this csv file on the basis that you are outputting themes from 
     'other' note types that would tell a customer service agent want recent 
-    activity there has been on this reservation. Summarise it in 100 words based 
-    on a timeline style summary below this produce bullet points showing key reference 
-    numbers such as ticket numbers, damage ids etc. excluding telephone numbers; 
-    where it is contained in the original data. Output the timeframe this happened in and 
-    look only at the last 3 months. Output this as JSON
+    activity there has been on this reservation. 
     
     please use the following output:
 
